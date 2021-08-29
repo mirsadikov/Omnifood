@@ -28,7 +28,7 @@
   - Tints: #fdf2e9 #fae5d3 #eb984e
   - Shades: #cf711f #46260a
   - Accents:
-  - Greys: #555 #333 #6f6f6f
+  - Greys: #888 #767676 #555 #333 #6f6f6f
 
   
 --- 05 SHADOWS
@@ -102,6 +102,10 @@ body {
 
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .heading-primary,
@@ -222,6 +226,7 @@ body {
   display: flex;
   align-items: center;
   gap: 1.6rem;
+  line-height: 1.2;
 }
 
 .list-icon {
