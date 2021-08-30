@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////
 // Enable transition after page load
-window.addEventListener("load", function () {
+window.addEventListener("DOMContentLoaded", function () {
   document.body.classList.remove("preload");
 });
 
