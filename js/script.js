@@ -1,4 +1,10 @@
 ///////////////////////////////////////////////////////////
+// Enable transition after page load
+window.addEventListener("load", function () {
+  document.body.classList.remove("preload");
+});
+
+///////////////////////////////////////////////////////////
 // Set current year
 const yearEl = document.querySelector(".year");
 const currentYear = new Date().getFullYear();
