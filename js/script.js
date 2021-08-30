@@ -9,9 +9,11 @@ yearEl.textContent = currentYear;
 
 const btnNavEl = document.querySelector(".btn-mobile-nav");
 const headerEl = document.querySelector(".header");
+const htmlEl = document.documentElement;
 
 btnNavEl.addEventListener("click", function () {
   headerEl.classList.toggle("nav-open");
+  htmlEl.classList.toggle("no-scroll");
 });
 
 ///////////////////////////////////////////////////////////
@@ -38,8 +40,10 @@ allLinks.forEach(function (link) {
     }
 
     // Close mobile naviagtion
-    if (link.classList.contains("main-nav-link"))
+    if (link.classList.contains("main-nav-link")) {
       headerEl.classList.toggle("nav-open");
+      htmlEl.classList.toggle("no-scroll");
+    }
   });
 });
 
