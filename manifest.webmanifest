@@ -10,5 +10,11 @@
       "type": "image/png",
       "sizes": "512x512"
     }
-  ]
+  ],
+  "short_name": "Omnifood",
+  "name": "Omnifood — Never cook again!",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#46260a",
+  "background_color": "#fdf2e9"
 }
